@@ -1,22 +1,22 @@
-.PHONY: examples
+.PHONY: MiCurriculum
 
 CC = xelatex
-EXAMPLES_DIR = examples
-RESUME_DIR = examples/resume
-CV_DIR = examples/cv
+CURRICULUM_DIR = MiCurriculum
+RESUME_DIR = MiCurriculum/resume
+CV_DIR = MiCurriculum/cv
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 
-examples: $(foreach x, coverletter cv resume, $x.pdf)
+MiCurriculum: $(foreach x, coverletter cv resume, $x.pdf)
 
-resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+resume.pdf: $(CURRICULUM_DIR)/resume.tex $(RESUME_SRCS)
+	$(CC) -output-directory=$(CURRICULUM_DIR) $<
 
-cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+cv.pdf: $(CURRICULUM_DIR)/cv.tex $(CV_SRCS)
+	$(CC) -output-directory=$(CURRICULUM_DIR) $<
 
-coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+coverletter.pdf: $(CURRICULUM_DIR)/coverletter.tex
+	$(CC) -output-directory=$(CURRICULUM_DIR) $<
 
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf
+	rm -rf $(CURRICULUM_DIR)/*.pdf
