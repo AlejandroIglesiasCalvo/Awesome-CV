@@ -2,7 +2,7 @@
 
 CC = xelatex
 CURRICULUM_DIR = MiCurriculum
-RESUME_DIR = MiCurriculum/resume
+RESUME_DIR = MiCurriculum/cv
 CV_DIR = MiCurriculum/cv
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
