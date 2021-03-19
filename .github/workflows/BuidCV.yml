@@ -11,8 +11,8 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 15
-      - name: Compose the diagrams
-        run: make
+      - name: Compose the CV
+        run: apt-get install xelatex && make
         
 
       
