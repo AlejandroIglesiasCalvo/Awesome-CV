@@ -7,7 +7,7 @@ CV_DIR = MiCurriculum/cv
 RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 
-MiCurriculum: $(foreach x, coverletter Alejandro-Iglesias-Calvo-cv resume, $x.pdf)
+MiCurriculum: $(foreach x, Alejandro-Iglesias-Calvo-cv resume coverletter, $x.pdf)
 
 resume.pdf: $(CURRICULUM_DIR)/resume.tex $(RESUME_SRCS)
 	$(CC) -output-directory=$(CURRICULUM_DIR) $<
