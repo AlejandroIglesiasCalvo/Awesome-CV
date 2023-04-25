@@ -1,4 +1,6 @@
-.PHONY: MiCurriculum MiCurriculum-english
+.PHONY: all MiCurriculum MiCurriculum-english
+
+all: MiCurriculum MiCurriculum-english
 
 CC = xelatex
 CURRICULUM_DIR = MiCurriculum MiCurriculum-english
