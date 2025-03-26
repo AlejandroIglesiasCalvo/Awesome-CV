@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1742976881 "/home/hamalawindows/repos/Awesome-CV/MiCurriculum/Alejandro-Iglesias-Calvo-cv.tex" "Alejandro-Iglesias-Calvo-cv.pdf" "Alejandro-Iglesias-Calvo-cv" 1742976881
+["pdflatex"] 1742979076 "/home/hamalawindows/repos/Awesome-CV/MiCurriculum/Alejandro-Iglesias-Calvo-cv.tex" "Alejandro-Iglesias-Calvo-cv.pdf" "Alejandro-Iglesias-Calvo-cv" 1742979076
   "/etc/texmf/web2c/texmf.cnf" 1719143429 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hamalawindows/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1718976099 1405651 95232f86e27ab1b22d215b22784ce248 ""
-  "/home/hamalawindows/repos/Awesome-CV/MiCurriculum/Alejandro-Iglesias-Calvo-cv.tex" 1718971104 3599 ffa6279676fbd7c421d3c83be5d5df26 ""
+  "/home/hamalawindows/repos/Awesome-CV/MiCurriculum/Alejandro-Iglesias-Calvo-cv.tex" 1742978825 3598 57074043ec4419606a7e27d92a486f9f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
@@ -31,8 +31,8 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty" 1448319911 5689 1bfa68243e89a54479e7d0580773c57e ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "Alejandro-Iglesias-Calvo-cv.aux" 1742976881 32 3985256e7290058c681f74d7a3565a19 ""
-  "Alejandro-Iglesias-Calvo-cv.tex" 1718971104 3599 ffa6279676fbd7c421d3c83be5d5df26 ""
+  "Alejandro-Iglesias-Calvo-cv.aux" 1742979076 32 3985256e7290058c681f74d7a3565a19 ""
+  "Alejandro-Iglesias-Calvo-cv.tex" 1742978825 3598 57074043ec4419606a7e27d92a486f9f ""
   "awesome-cv.cls" 1712152981 26721 305a1768ca9d2f10c442cd2bdbae4b4f ""
   (generated)
   "Alejandro-Iglesias-Calvo-cv.log"
