@@ -1,116 +1,49 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 % Awesome CV LaTeX Template for Cover Letter
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Authors:
-% Claud D. Park <posquit0.bj@gmail.com>
-% Lars Richter <mail@ayeks.de>
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
-
 
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
-
-% Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
-
-% Specify the location of the included fonts
+\documentclass[11pt,a4paper]{awesome-cv}
+\geometry{left=1.4cm,top=.8cm,right=1.4cm,bottom=1.8cm,footskip=.5cm}
 \fontdir[fonts/]
-
-% Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{awesome-red}
-% Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
-
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
-
-% Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
-
-% If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 %-------------------------------------------------------------------------------
 \begin{document}
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
 \photo[circle,noedge,left]{./MiCurriculum/profile}
 \name{Iglesias Calvo}{Alejandro}
-\position{Full Stack developer}
-\address{Calle fraternidad, Oviedo, Asturias, España}
+\position{Senior Full Stack / DevOps Engineer}
+\address{Calle Baldomero Fernández, Oviedo, Asturias, España}
 
 \mobile{717719965}
 \email{alejandroiglesiascalvo@hotmail.com}
 \homepage{https://alejandroiglesiascalvo.github.io/}
 \github{AlejandroIglesiasCalvo}
 \linkedin{Alejandro Iglesias Calvo}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
-
-%\quote{``Be the change that you want to see in the world."}
-
 
 %-------------------------------------------------------------------------------
 %	LETTER INFORMATION
-%	All of the below lines must be filled out
 %-------------------------------------------------------------------------------
-% The company being applied to
 \recipient
-  {Company Recruitment Team}
-% The date on the letter, default is the date of compilation
+  {Equipo de Selección de <EMPRESA>}
 \letterdate{\today}
-% The title of the letter
-\lettertitle{Job Application for Junior Software Engineer}
-% How the letter is opened
-\letteropening{Dear reader of this presentation}
-% How the letter is closed
-\letterclosing{Sincerely, Alejandro}
-% Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+\lettertitle{Candidatura a Senior Full Stack / DevOps Engineer}
+\letteropening{Estimado equipo de selección,}
+\letterclosing{Atentamente,\\[6pt]Alejandro Iglesias Calvo}
+\letterenclosure[Adjunto]{Curriculum Vitae}
 
-
-
-
-
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
+%-------------------------------------------------------------------------------
+% Encabezado / pie
+%-------------------------------------------------------------------------------
 \makecvheader[R]
-
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
-\makecvfooter
-{\today}
-{Alejandro Iglesias Calvo ~~~·~~~Cover Letter}
-{}
-
-% Print the title with above letter informations
+\makecvfooter{\today}{Alejandro Iglesias Calvo ~~~·~~~ Cover Letter}{}
 \makelettertitle
 
 %-------------------------------------------------------------------------------
@@ -118,17 +51,29 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-  \lettersection{About Me}
-{I am insightful, tenacious and curious. I am always interested in learning, and improving. I like to understand, and make sense of things. The more I understand something, the easier it is for me to learn new things.}
-  \lettersection{Why 5CA?}
-{I consider that this is a good opportunity to work, due to the wide range of projects that your company has, and its size. I would like to enter a new project, grow within the company, and be useful.}
-  \lettersection{Why Me?}
-{I am looking for a good remote job, where I can give my best, and build a good future for myself.}
+  \lettersection{Presentación}
+  Ingeniero Informático con más de \textbf{5 años de experiencia profesional} —y una trayectoria personal aún más extensa— creando, desplegando y operando soluciones software de alto rendimiento.  
+  He liderado proyectos \textit{end-to-end} que procesan \textbf{≈5 millones de transacciones diarias}, diseñando microservicios .NET 8, orquestando pipelines CI/CD en Azure DevOps y optimizando bases de datos SQL Server y Solr en entornos de alta disponibilidad.  
+  Además de mi trabajo, mantengo un \textit{home-lab} con NAS Synology y Docker donde experimento con IA generativa, LLMs y automatización de infraestructuras mediante Terraform y Kubernetes.
+
+  \lettersection{Motivación para <EMPRESA>}
+  \textbf{<EMPRESA>} destaca por su enfoque innovador y su escala internacional. Vuestro compromiso con la ingeniería de software de calidad, la cultura DevOps y la adopción de la nube encaja plenamente con mi trayectoria.  
+  Me atrae especialmente la oportunidad de contribuir a <PROYECTO/PRODUCTO>, donde mis conocimientos en integración de APIs externas, despliegue continuo y monitorización \textit{cloud-native} pueden acelerar el \textit{time-to-market} y la resiliencia del sistema.
+
+  \lettersection{Por qué yo}
+  \begin{itemize}
+      \item \textbf{Experiencia probada en producción}: reducción del tiempo de despliegue un 30 \% y disminución de incidencias críticas un 40 \% gracias a pipelines automatizados y pruebas de integración exhaustivas.
+      \item \textbf{Visión full stack + DevOps}: desde React/SvelteKit hasta Kubernetes, pasando por .NET Core, SQL/NoSQL y observabilidad con Prometheus + Grafana.
+      \item \textbf{Liderazgo y trabajo remoto}: he coordinado equipos distribuidos en Europa y LATAM, aplicando metodologías ágiles y fomentando la comunicación continua.
+      \item \textbf{Aprendizaje constante}: mantengo proyectos personales (LLM, vector DBs) y comparto buenas prácticas en GitHub, demostrando curiosidad y autoformación.
+  \end{itemize}
+
+  Confío en que mi combinación de \textit{expertise} técnico, mentalidad de mejora continua y capacidad para integrarme en equipos multiculturales aportará valor inmediato a <EMPRESA>.  
+  Quedo a vuestra disposición para ampliar cualquier información y conversar sobre cómo alcanzar los objetivos de negocio conjuntamente.
+
 \end{cvletter}
 
-
 %-------------------------------------------------------------------------------
-% Print the signature and enclosures with above letter informations
 \makeletterclosing
 
 \end{document}
