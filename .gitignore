@@ -21,3 +21,6 @@
 ## Mac OS X metadata files:
 *.DS_Store
 
+### Local build artifacts ###
+.temp/
+
