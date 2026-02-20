@@ -87,6 +87,19 @@ At a command prompt, run
 xelatex {your-cv}.tex
 ```
 
+On Windows PowerShell (this repo), you can build all PDFs with:
+
+```powershell
+./build.ps1 -Target all
+```
+
+Or build only one language:
+
+```powershell
+./build.ps1 -Target spanish
+./build.ps1 -Target english
+```
+
 Or using docker:
 
 ```bash
